@@ -1,2 +1,2 @@
 # zuri-responsive-task
-Tasked to make a design reposive on mobile and desktop
+Tasked to make a design reponsive on mobile and desktop
