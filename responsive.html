@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="I4GxZuri CSS Flexbox Task"
+      description="recreating a 3-column design"
+    />
+    <title>CSS Flexbox Task</title>
+    <link rel="stylesheet" href="responsive.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="designcontainer">
+        <div class="main">
+          <h3 class="message">Learn to code by watching others</h3>
+          <p class="message">
+            See how inexperienced developers solve problems in real-time.
+            Watching scripted tutorials is great, but understanding how
+            developers think is invaluable.
+          </p>
+        </div>
+
+        <div class="formcontainer">
+          <div class="top">
+            <p>
+              <b style="font-weight: 600">Try it free for 7 days</b> then
+              $20/mo, thereafter
+            </p>
+          </div>
+          <form action="#" class="formbox">
+            <div>
+              <input
+                class="text"
+                type="text"
+                id="fname"
+                name="FName"
+                placeholder="First Name"
+                required
+              />
+            </div>
+            <div>
+              <input
+                class="text"
+                type="text"
+                id="lname"
+                name="LName"
+                placeholder="Last Name"
+                required
+              />
+            </div>
+            <div>
+              <input
+                class="text"
+                type="email"
+                id="email"
+                name="Email"
+                placeholder="Email Address"
+                pattern="[a-z0-9]+@[a-z0-9.-]+.[a-z]"
+                required
+              />
+            </div>
+            <div>
+              <input
+                class="text"
+                type="password"
+                id="password"
+                name="Password"
+                placeholder="Password"
+                pattern="([A-Za-z0-9?=.*\])"
+                minlength="8"
+                maxlength="15"
+                required
+              />
+            </div>
+            <div>
+              <input
+                class="button"
+                type="submit"
+                value="CLAIM YOUR FREE TRIAL"
+              />
+            </div>
+            <p
+              style="
+                font-size: 9px;
+                color: hsl(246, 25%, 77%);
+                text-align: center;
+                margin: 10px;
+                cursor: default;
+              "
+            >
+              By clicking this button, you are agreeing our
+              <b style="font-weight: 600; color: hsl(0, 100%, 74%)"
+                >Terms and Services</b
+              >
+            </p>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
